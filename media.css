@@ -1,0 +1,76 @@
+@media (max-width:600px){
+    .left img{
+        display:none;
+    }
+    .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row{
+        width:300px;
+        height:auto;
+    }
+    .row h1{
+        font-size:25px;
+        text-align: left;
+        margin:15px 20px;
+    }
+    .right form label{
+        font-size: 12px;
+    }
+    .right form input{
+        width:100px;
+        height:8px;
+    }
+    .right form{
+        align-items: flex-start;
+        margin:0px;
+        padding:0px;
+        justify-content: flex-start;
+    }
+    section,.box{
+        margin:2px 12px;
+        padding:0px;
+    }
+    .rating{
+        margin:5px 0;
+    }
+    .value{
+        margin:10px 0px;
+        gap:1px;
+    }
+    .radio_inside{
+        width:10px;
+        height:10px;
+    }
+    
+    button{
+        position:relative;
+        left:45%;
+        top:40%;
+    }
+}
+
+@media (min-width:600px)and (max-width:1023px){
+    .row{
+        width:450px;
+    }
+    .left{
+        display: none;
+    }
+    .box{
+        margin: 0px 5px ;
+        padding: 1px 15px;
+    }
+    .rating{
+        margin: 0;
+        padding:20px 0px;
+    }
+    .radio{
+        padding:5px 0px;
+    }
+    section{
+        padding: 2px;
+    }
+}   
