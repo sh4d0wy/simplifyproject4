@@ -59,18 +59,35 @@
     .left{
         display: none;
     }
+    .right form input{
+        width:120px;
+    }
+    .right form{
+        margin:0px 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
     .box{
         margin: 0px 5px ;
         padding: 1px 15px;
     }
     .rating{
         margin: 0;
-        padding:20px 0px;
-    }
-    .radio{
         padding:5px 0px;
+    }
+    .text label,.value label{
+        font-size: 14px;
+    }
+
+    .radio{
+        padding:10px 3px;
     }
     section{
         padding: 2px;
+    }
+    button{
+        position: relative;
+        left: 150px;
+        margin:0px;
     }
 }   
